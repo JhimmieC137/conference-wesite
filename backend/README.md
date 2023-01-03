@@ -50,12 +50,16 @@ set FLASK_DEBUG=True
 ```
 
 Windows Powershell:
-`$env:FLASK_APP=flaskapp`
-`$env:FLASK_DEBUG=True`
+```
+$env:FLASK_APP=flaskapp
+$env:FLASK_DEBUG=True
+```
 
 Unix Bash(Linux, Mac, etc.):
-`export FLASK_APP=flaskapp`
-`export FLASK_DEBUG=True`
+```
+export FLASK_APP=flaskapp
+export FLASK_DEBUG=True
+```
 
 and then `flask run`
 
