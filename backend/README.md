@@ -22,7 +22,9 @@ Every endpoint is required to also have a test function in the test.py file to e
 
 To set up, you must have python installed, find guides on that [here](https://docs.python.org/3/using/unix.html#getting-and-installing-the-latest-version-of-python). Clone the repo by navigating to your chosen directory for the project in your git bash terminal and running the following command:
 
-`git clone https://github.com/JhimmieC137/conference-wesite.git`
+```
+git clone https://github.com/JhimmieC137/conference-wesite.git
+```
 
 
 Create a virtual environment and activate using any of the commands below in your terminal
