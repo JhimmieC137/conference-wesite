@@ -9,22 +9,39 @@ The *assets* diectory stores all static files like image files, css files and ot
 - Components
  This *components* directory is where the UI components(Basically formatted webpages) are stored with the extension `.vue`. Currently this just contains the HelloWorld.vue component.
 
-- Router
-The *router* directory contains the index.js file where urls are defined and mapped to the components
 
-- Views
-This is similar to components and contains webpage templates also with the extension `.vue`
 
-The `main.js` file initiates the vue app
+The `main.js` file initiates the vue app and the `App.vue` handles the url routing and mapping.  
 
-You will be required to document each component as they are added under *Components* above. Also document any other important feature added When you are done and ready to deploy to production, delete the former `dist` folder and run the command:
+### Consuming backend data
+
+Any data to be consumed will be served via a deployed version of the backend on a live server. In absence of the live server data, you will be required to set up and run the backend on your local machine and use the uri `http://127.0.0.1:5000`. Find explanation on how to set up in the [backend readme](../backend/README.md). 
+
+### Documentation
+
+You will also be required to document each component as they are added under *Components* above. Also document any other important feature added.
+
+### Running the app
+
+To run the Vue app, navigate to the frontend_app directory in your terminal, run the command:
+
+`npm run serve`
+
+On first setup you should see the the page show in the image below
+
+
+
+### Deploying the app
+
+When you are done and ready to deploy to production, delete the former `dist` folder and run the command:
 
 `npm run build`
 
 This creates a new `dist` folder 
 
 
-Note:
+
+**Note:**
 If you will be using VScode as a text editor you will need extensions
 [Vue](Vue.volar) for the vue application
 [Prettier](esbenp.prettier-vscode) to help with code formatting

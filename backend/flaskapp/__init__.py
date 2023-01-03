@@ -9,11 +9,7 @@ def create_app(test_config=None):
     
     @app.route('/')
     def home():
-        title = "Conference Website"  
-        return jsonify({
-            'Project': title,
-            'message': 'success',
-            'status': 200
-        })
+        title = "Conference Website V1.0"  
+        return title
     
     return app

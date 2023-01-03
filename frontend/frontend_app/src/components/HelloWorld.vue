@@ -31,10 +31,29 @@
 </template>
 
 <script>
+import axios from 'axios';  //importing axios 
 export default {
-  name: 'HelloWorld',
-  props: {
-    msg: String
+  name: 'HelloWorld',       //routes 
+  data() {
+    return {
+      msg: ""
+    }
+  },
+  methods: {
+    getResponse(){
+      const path = 'https://jimi.theupfolio.com';  //Connecting to a live backend server. Change to 'http://127.0.0.1:5000' if needed
+      axios.get(path)
+      .then ((res) => {
+        console.log(res.data)
+        this.msg = res.data;
+      })
+      .catch ((err) => {
+        console.error(err);
+      });
+    },
+  },
+  created(){
+    this.getResponse();
   }
 }
 </script>
