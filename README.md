@@ -14,5 +14,3 @@ For specific information on setting up, visit the [Backend](./backend/README.md)
 
 
 The live app will be deployed to [hltAfrica.org](hltAfrica.org)
-
-[here]()
