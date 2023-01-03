@@ -44,8 +44,10 @@ In the backend directory, run the command `pip install -r requirements.txt` to i
 To run the flask app, in the backend directory, set the flask app to your environment and to development mode. Use the following commands in your terminal
 
 Windows CMD:
-`set FLASK_APP=flaskapp`
-`set FLASK_DEBUG=True`
+```
+set FLASK_APP=flaskapp
+set FLASK_DEBUG=True
+```
 
 Windows Powershell:
 `$env:FLASK_APP=flaskapp`
