@@ -32,6 +32,9 @@ To run the Vue app, navigate to the frontend_app directory in your terminal, run
 `npm run serve`
 
 On first setup you should see the the page show in the image below
+![firstpage](https://user-images.githubusercontent.com/71768696/210447383-c7517612-df9f-4607-b3e1-f10e9be003d1.png)
+
+
 
 
 
