@@ -8,6 +8,9 @@ Get Node.js installed on your local machine, find help with that [here](frontend
 
 `npm run serve`
 
-Confirm on your browser that the website is running at `localhost:8080`.
+Confirm on your browser that the website is running at `localhost:8080` or `http://127.0.0.1:8080`.
 
-For specific information on setting up and others, visit the [Backend](backend/RREADME.md) and [Frontend](frontend/RREADME.md) compartments.
+For specific information on setting up, visit the [Backend](backend/RREADME.md) and [Frontend](frontend/RREADME.md) compartments.
+
+
+The live app will be deployed to [hltAfrica.org](hltAfrica.org)

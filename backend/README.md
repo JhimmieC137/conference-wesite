@@ -15,11 +15,17 @@ This is the endpoint of the official homepage. Returns a message telling the tit
 
 ### Testing 
 
-Every endpoint is required to also have a test function in the test.py file to ensure the appropriate return values and format 
+Every endpoint is required to also have a test function in the test.py file to ensure the appropriate return values and format
+
 
 ### Setting up
 
-To set up, you must have python installed, find guides on that [here](https://docs.python.org/3/using/unix.html#getting-and-installing-the-latest-version-of-python). Create a virtual environment and activateusing any of the commands below in your terminal
+To set up, you must have python installed, find guides on that [here](https://docs.python.org/3/using/unix.html#getting-and-installing-the-latest-version-of-python). Clone the repo by navigating to your chosen directory for the project in your git bash terminal and running the following command:
+
+`git clone https://github.com/JhimmieC137/conference-wesite.git`
+
+
+Create a virtual environment and activate using any of the commands below in your terminal
 
 `python -m venv <virtual environment name>` --> `cd <virtual environment name>` --> `Scripts\activate`
 

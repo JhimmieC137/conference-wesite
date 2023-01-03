@@ -17,9 +17,13 @@ The `main.js` file initiates the vue app and the `App.vue` handles the url routi
 
 Any data to be consumed will be served via a deployed version of the backend on a live server. In absence of the live server data, you will be required to set up and run the backend on your local machine and use the uri `http://127.0.0.1:5000`. Find explanation on how to set up in the [backend readme](../backend/README.md). 
 
-### Documentation
 
-You will also be required to document each component as they are added under *Components* above. Also document any other important feature added.
+### Setting up
+
+To get started, have npm installed on your local machine, visit this [guide](https://phoenixnap.com/kb/install-node-js-npm-on-windows) for help if needed. Clone this repository by navigating to your chosen directory for the project in your git bash terminal and running the following command:
+
+`git clone https://github.com/JhimmieC137/conference-wesite.git`
+
 
 ### Running the app
 
@@ -30,6 +34,10 @@ To run the Vue app, navigate to the frontend_app directory in your terminal, run
 On first setup you should see the the page show in the image below
 
 
+
+### Documentation
+
+You will also be required to document each component as they are added under *Components* above. Also document any other important feature added.
 
 ### Deploying the app
 
